@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+  background: url("../image/background.jpg") no-repeat center center fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.container {
+	width: 100%;
+	height: 600px;
+	padding: 60px 0px;
+	color: rgb(225, 213, 213);
+}
+
+.logo {
+    height: 260px;
+    width: 100%;
+    padding: 30px 125px;
+}
+
+
+.main {
+	width: 500px;
+	height: 600px;
+	background-color: rgba(0,0,0,0.3);
+	margin: 0 auto;
+	color: white;
+	padding: 0px 25px;
+}
+
+
+.avatar {
+	height: 100px; 
+	width: 100px;
+	background-color: #BCA474;
+	position: relative;
+	left: 175px;
+	top: -50px;
+	border-radius: 50%;
+	padding: 7px 10px;
+}
+
+.top {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.top h1 {
+	font-weight: 400;
+	font-size: 35px;
+}
+
+
+
+.login form input[type="text"],.login form input[type="password"]
+{
+	background: url("../image/userlogin.png") no-repeat 0px 5px;
+	outline: none;
+	width: 100%;
+	padding:12px 13px 20px 44px;
+	border: none;
+    border-bottom: 1px solid #fff;
+	font-size: 15px;
+    font-weight: 400;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.login form input[type="password"] {
+	background: url("../image/pass.png") no-repeat 0px 5px;
+    margin-bottom: 40px;
+}
+
+::placeholder { 
+    color: white!important;
+}
+
+.login form button
+{
+	background-color: #BCA474;	
+	color: #FFF;
+    font-size: 24px;
+    width: 100%;
+    font-weight: 500;
+	display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+
+.login form button a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 8px 25px;
+}
+
+.login form a:hover {
+	background-color: #886F2F;
+}
+
+
+
