@@ -73,7 +73,7 @@ include_once 'cart.php';
         <div  class="d_menu">
             <div   class="d_menu_content">
                 <ul class="d_menu_main text-uppercase">
-                    <li><a href="TrangChu.php" class="text-decoration-none d_color-white-bold ">Trang chủ</a></li>
+                    <li><a href="index.php" class="text-decoration-none d_color-white-bold ">Trang chủ</a></li>
                     <li class="sub-menu"><a href="SanPham.php" class="text-decoration-none d_color-white-bold d_active">Sản phẩm <i class="fa fa-caret-down"></i></a>
                     <div class="sub__menu"> 
                         <div class="d-flex text-start text-capitalize">
@@ -252,7 +252,7 @@ include_once 'cart.php';
     <div class="d_footer">
         <footer class="py-2">
           <ul class="nav justify-content-center border-bottom pb-2 mb-3">
-            <li class="nav-item"><a href="TrangChu.php" class="nav-link px-2 text-white opacity">Trang chủ</a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link px-2 text-white opacity">Trang chủ</a></li>
             <li class="nav-item"><a href="SanPham.php" class="nav-link px-2 text-white opacity">Sản phẩm</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-white opacity">Giới thiệu</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-white opacity">Tin tức </a></li>

@@ -42,7 +42,7 @@ header('location:login.php');
     <!-- mainleft -->
     <div class="sidebar" id="sidebar">
         <div class="logo" id="sidebar_list">
-            <a href="../TrangChu.php"><img src="../image/logo2.png"></a>
+            <a href="../index.php"><img src="../image/logo2.png"></a>
         </div>
         <ul class="list">
             <li class="list__item">

@@ -24,7 +24,7 @@
         <div class="d_header-top">
             <div class="d_header-top-content ">
                 <div class="d_header-top-left  ">
-                   <a href="TrangChu.php"><img src="./image/logo2.png" style="height: 100px;"></a>
+                   <a href="index.php"><img src="./image/logo2.png" style="height: 100px;"></a>
                 </div>
                 <div class="d_header-top-center ">
                     <div class="d_search">
@@ -75,7 +75,7 @@
         <div  class="d_menu">
             <div   class="d_menu_content">
                 <ul class="d_menu_main text-uppercase">
-                    <li><a href="TrangChu.php" class="text-decoration-none d_color-white-bold ">Trang chủ</a></li>
+                    <li><a href="index.php" class="text-decoration-none d_color-white-bold ">Trang chủ</a></li>
                     <li class="sub-menu"><a href="SanPham.php" class="text-decoration-none d_color-white-bold">Sản phẩm <i class="fa fa-caret-down"></i></a>
                     <div class="sub__menu"> 
                         <div class="d-flex text-start text-capitalize">
@@ -163,7 +163,7 @@
 <div class="container">
     <div class="d_shop-title d-flex justify-content-between">
       <div class="d_title-row text-uppercase">
-          <a href="TrangChu.php" class="d_text_gray text-decoration-none">trang chủ</a>
+          <a href="index.php" class="d_text_gray text-decoration-none">trang chủ</a>
           <span class="d_divider d_text_gray">/</span>
           <a href="phanhoi.php" class="text_active d_text_gray text-decoration-none ">Liên hệ</a>
       </div>
@@ -263,7 +263,7 @@
     <div class="n_footer">
       <footer class="py-2">
         <ul class="nav justify-content-center border-bottom pb-2 mb-3">
-          <li class="nav-item"><a href="TrangChu.php" class="nav-link px-2 text-white opacity ">Trang chủ</a></li>
+          <li class="nav-item"><a href="index.php" class="nav-link px-2 text-white opacity ">Trang chủ</a></li>
           <li class="nav-item"><a href="SanPham.php" class="nav-link px-2 text-white opacity">Sản phẩm</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-white opacity">Giới thiệu</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-white opacity">Tin tức </a></li>
