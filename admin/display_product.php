@@ -57,7 +57,7 @@ include_once 'config.php';
                     
                     <tbody>
                         <?php
-                        $sql = "SELECT * FROM sanpham";
+                        $sql = "SELECT * FROM sanpham ORDER BY MaSP DESC";
                         $result_set=mysqli_query($con, $sql);
                         if(mysqli_num_rows($result_set)>0)
                         {

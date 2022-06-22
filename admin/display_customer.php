@@ -59,7 +59,7 @@ include_once 'config.php';
                     </thead>    
                     <tbody>
                         <?php
-                        $sql = "SELECT * FROM khachhang";
+                        $sql = "SELECT * FROM khachhang ORDER BY MaKH DESC";
                         $result_set=mysqli_query($con, $sql);
                         if(mysqli_num_rows($result_set)>0)
                         {

@@ -54,7 +54,8 @@ include_once 'config.php';
                         <?php
                         $sql = "SELECT * FROM dathang,khachhang,ctdathang WHERE khachhang.MaKH = dathang.MaKH 
                         AND ctdathang.MaPhieuDat = dathang.MaPhieuDat 
-                        GROUP BY dathang.MaPhieuDat";
+                        GROUP BY dathang.MaPhieuDat
+                        ORDER BY dathang.MaPhieuDat DESC";
                         $result_set=mysqli_query($con, $sql);
                         if(mysqli_num_rows($result_set)>0)
                         {

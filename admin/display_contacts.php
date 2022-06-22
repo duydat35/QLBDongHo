@@ -51,7 +51,7 @@ include_once 'config.php';
                     </thead>    
                     <tbody>
                         <?php
-                        $sql = "SELECT * FROM lienhe";
+                        $sql = "SELECT * FROM lienhe ORDER BY MaLH DESC";
                         $result_set=mysqli_query($con, $sql);
                         if(mysqli_num_rows($result_set)>0)
                         {
